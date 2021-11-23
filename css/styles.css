@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+ }
+ .wrapper,
+ portfolio {
+ Width: 100vw;
+ height: 100vh;
+ background-color: #A569BD;
+ color: #fff;}
+ .navbar {
+ display: flex;
+ justify-content:space-between;}
+ .brand span {color: #FADBD8;}
+ .menu {display: flex;
+ width: 50%;justify-content: space-around;}
+ .menu li {list-style: none;}
+ .menu a{color: #fff;text-decoration: none;}
+ .menu .active{color: #17202A;}
+ .menu a:hover{
+ background-color: #1ABC9C;
+ transition: ease-in .4s;}
+ .main{margin: 0 auto;width: 80vw;
+ display: grid; grid-template-columns: repeat(2,1fr);align-items: center;}
+ .about{display: grid; width: 100vw;align-items: center;}
+ .about-info{grid-colum:5/10;padding: 3em}
+ .about-info h2{font-size: 2em;color: #1B2631;}
+ .about-info p{color: # 1B2631}
+ .divider{height:4px;width:60px;background-color: #FADBD8;margin-top:10px;margin-bottom: 2em;align-items: center;}
+ .about p{margin-bottom:2em;}
+ .portfolio{display: grid; width: 100vw;align-items: center;}
+ .portfolio{grid-colum:5/10;padding: 3em}
+ .portfolio h2{font-size: 2em; color: #1B2631;}
+ .divider{height:4px;width:60px;background-color: #FADBD8;margin-top:10px;margin-bottom: 2em;align-items: center;}
+ .container card_img{margin-bottom:2em}
+ .card_title{display: grid; width: 100vw;align-items: center;}
+ .card_title{grid-colum:5/10;padding: 3em}
+ .card_title h2{font-size: 2em; color: #1B2631;}
+ .divider{height:4px;width:60px;background-color: #FADBD8;margin-top:10px;margin-bottom: 2em;align-items: center;}
+ .card_title h2{margin-bottom:2em}
+ .contact h2{display: grid; width: 100vw;align-items: center;}
+ .contact h2{grid-colum:5/10;padding: 3em}
+ .contact h2{font-size: 2em; color: #1B2631;}
+ .divider{height:4px;width:60px;background-color: #FADBD8;margin-top:10px;margin-bottom: 2em;align-items: center;}
+ .contact h2{margin-bottom:1em}
+ .contact p{margin-bottom:2em;}
